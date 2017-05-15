@@ -57,6 +57,7 @@ a:visited {
     display: inline-block;
     vertical-align: middle;
     margin: 0 0 0 30px;
+    max-width: calc(100% - 156px - 35px);
 }
 
 #contactForm {
@@ -108,8 +109,7 @@ a:visited {
     line-height: 100%;
     color: #FFFFFF;
     height: 68px;
-    padding-left: 55px;
-    padding-right: 55px;
+    width: 100%;
     transition: .1s ease-in-out;
 }
 .musk-btn:hover {
