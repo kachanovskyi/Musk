@@ -4,6 +4,11 @@ body, html {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     text-align: left;
+    display: flex;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    flex-direction: column;
+    height: 100vh;
 }
 
 h1 {
@@ -44,20 +49,29 @@ a.learn-more {
 }
 
 .navbar.navbar-default {
-    height: 168px;
+    /*height: 168px;*/
     border: none;
     background: transparent;
+    margin-bottom: 0;
 }
+
 .navbar.navbar-default .navbar-brand {
-    margin: 60px auto 100px -15px;
+    margin: 60px auto 0 -15px;
     padding: 0;
 }
 .navbar.navbar-default .navbar-brand > img {
     width: 80px;
 }
 
+.header {
+    width: 100%;
+}
 #wrapper {
-    margin-bottom: 60px;
+    /*margin-bottom: 60px;*/
+    /*height: calc(100vh - 130px);*/
+    /*display: table-cell;*/
+    /*vertical-align: middle;*/
+    margin: auto;
 }
 
 .description {
